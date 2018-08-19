@@ -13,7 +13,6 @@ export class Exercice1Component implements OnInit {
 
   GetValue(r :number):void {
     this.result=r;
-    
   }
   ngOnInit() {
     this.result=0;  
